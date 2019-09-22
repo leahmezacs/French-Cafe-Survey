@@ -9,12 +9,19 @@
     <p id="description">Please fill out this form below on your expeerience at one of our locations: </p>
     <form id="survey-form">
         <label id="name-label">Enter your full name:</label>
-        <input type="text" id="name" placeholder="i.e. Leah Meza"> <br>
+            <input type="text" id="name" placeholder="i.e. Leah Meza"> <br>
         <label id="email-label">Enter a valid email address:</label>
-        <input type="email" id="email" required placeholder="username@example.com"> <br>
+            <input type="email" id="email" required placeholder="username@example.com"> <br>
         <label id="number-label">Rate your overall experience [0-10]:</label>
-        <input type="number" id="number" min="0" max="10" required placeholder="5"> <br>
-
+            <input type="number" id="number" min="0" max="10" required placeholder="5"> <br>
+        <label id="dropdown-label">When did you visit this location:</label>
+        <select id="dropdown">
+            <option value="early morning">Early Morning</option>
+            <option value="morning rush">Morning Rush</option>
+            <option value="afternoon">Afternoon</option>
+            <option value="early evening">Early Evening</option>
+            <option value="dusk">Dusk</option>
+        </select>
     </form>
 </body>
 </html>
