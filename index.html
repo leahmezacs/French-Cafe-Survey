@@ -9,7 +9,7 @@
     <p id="description">Please fill out this form below on your expeerience at one of our locations: </p>
     <form id="survey-form">
         <label id="name-label">Enter your full name:</label>
-            <input type="text" id="name" placeholder="i.e. Leah Meza"> <br>
+            <input type="text" id="name" placeholder="i.e. Leah Meza" required> <br>
         <label id="email-label">Enter a valid email address:</label>
             <input type="email" id="email" required placeholder="username@example.com"> <br>
         <label id="number-label">Rate your overall experience [0-10]:</label>
@@ -23,12 +23,13 @@
                 <option value="dusk">Dusk</option>
             </select> <br>
         <label id="radio-label">How satisfied are you with your order:</label> <br>
-            <input type="radio" name="order-satisfaction" id="very satisifed"checked>
+            <input type="radio" name="order-satisfaction" id="very satisifed" checked>
                 <label for="very satisfied">Very Satisfied</label> <br>
             <input type="radio" name="order-satisfaction" id="somewhat satisifed">
                 <label for="somewhat satisifed">Somewhat Satisfied</label> <br>
             <input type="radio" name="order-satisfaction" id="neutral">
                 <label for="neutral">Neutral</label> <br>
+        <label id="checkboxes"></label>
     </form>
 </body>
 </html>
