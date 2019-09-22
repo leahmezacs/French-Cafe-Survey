@@ -14,14 +14,21 @@
             <input type="email" id="email" required placeholder="username@example.com"> <br>
         <label id="number-label">Rate your overall experience [0-10]:</label>
             <input type="number" id="number" min="0" max="10" required placeholder="5"> <br>
-        <label id="dropdown-label">When did you visit this location:</label>
-        <select id="dropdown">
-            <option value="early morning">Early Morning</option>
-            <option value="morning rush">Morning Rush</option>
-            <option value="afternoon">Afternoon</option>
-            <option value="early evening">Early Evening</option>
-            <option value="dusk">Dusk</option>
-        </select>
+        <label id="dropdown-label">When did you visit this location:</label> <br>
+            <select id="dropdown">
+                <option value="early morning">Early Morning</option>
+                <option value="morning rush">Morning Rush</option>
+                <option value="afternoon">Afternoon</option>
+                <option value="early evening">Early Evening</option>
+                <option value="dusk">Dusk</option>
+            </select> <br>
+        <label id="radio-label">How satisfied are you with your order:</label> <br>
+            <input type="radio" name="order-satisfaction" id="very satisifed"checked>
+                <label for="very satisfied">Very Satisfied</label> <br>
+            <input type="radio" name="order-satisfaction" id="somewhat satisifed">
+                <label for="somewhat satisifed">Somewhat Satisfied</label> <br>
+            <input type="radio" name="order-satisfaction" id="neutral">
+                <label for="neutral">Neutral</label> <br>
     </form>
 </body>
 </html>
